@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pranavi Nimase | Data Science Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+
+        .navbar {
+            background: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(10px);
+        }
+
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #020617, #0f172a);
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+        }
+
+        .profile-pic {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #38bdf8, #6366f1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #020617;
+            font-weight: 600;
+            margin: auto;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: #38bdf8;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .card {
+            background: #020617;
+            border: none;
+            border-radius: 16px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(56, 189, 248, 0.15);
+        }
+
+        .badge {
+            background: #1e293b;
+            color: #38bdf8;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #020617;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Pranavi Nimase</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+    <div class="container">
+        <div class="profile-pic mb-4">Profile Photo</div>
+        <h1 class="fw-bold">Pranavi Balasaheb Nimase</h1>
+        <p class="lead mt-3">
+            Data Science Fresher | Machine Learning | Python | EDA | AI
+        </p>
+        <div class="mt-4">
+            <a href="https://linkedin.com/in/pranavi-nimase" target="_blank" class="btn btn-outline-info me-2">LinkedIn</a>
+            <a href="#projects" class="btn btn-info">View Projects</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="text-center">
+            Aspiring Data Science fresher with strong foundations in Python, data analysis,
+            exploratory data analysis (EDA), and machine learning. Passionate about solving
+            real-world problems using data-driven approaches and deploying ML models
+            through web applications.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="text-center">
+            <span class="badge">Python</span>
+            <span class="badge">Pandas</span>
+            <span class="badge">NumPy</span>
+            <span class="badge">Matplotlib</span>
+            <span class="badge">Scikit-learn</span>
+            <span class="badge">Machine Learning</span>
+            <span class="badge">EDA</span>
+            <span class="badge">Data Visualization</span>
+            <span class="badge">Flask</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Bootstrap</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">MongoDB</span>
+            <span class="badge">Google Gemini AI</span>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <h5>House Price Predictor</h5>
+                    <p>
+                        ML web app using Linear Regression to predict house prices
+                        based on property features.
+                    </p>
+                    <a href="https://pranavi19.pythonanywhere.com/" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <h5>Crop Prediction System</h5>
+                    <p>
+                        Decision Tree–based ML system recommending crops using
+                        soil and climate parameters.
+                    </p>
+                    <a href="https://pranavi45.pythonanywhere.com/" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <h5>AI Workout Planner</h5>
+                    <p>
+                        AI-powered personalized workout generator using
+                        Google Gemini AI.
+                    </p>
+                    <a href="https://pranavi2004.pythonanywhere.com/" target="_blank">Live Demo →</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <ul class="list-unstyled text-center">
+            <li>📜 Data Science & Introduction to Machine Learning – Adhyayan IT Training & Placement, Pune</li>
+            <li>📜 C Programming</li>
+            <li>📜 C++ Programming</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="text-center">
+            📧 pranavinimase123@gmail.com <br>
+            📍 Pune, India <br>
+            📞 9822041975
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Pranavi Nimase | Data Science Portfolio
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
